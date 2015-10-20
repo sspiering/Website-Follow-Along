@@ -7,9 +7,15 @@ body {
   background-color: orange;
 }
 
-.main-header span {
+.title {
   color: white;
   font-size: 26px;
+}
+
+ol li {
+  background-color: tomato;
+  color: white;
+  margin-bottom: 5px;
 }
 
 h1 {
@@ -32,6 +38,27 @@ h3 {
 
 .t-border {
   border-top: 2px solid lightgray;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+a:active {
+  color: lightcoral;
+}
+
+:focus {
+  color: white;
+  background-color: orange;
 }
 
 #main-footer {

@@ -18,14 +18,14 @@ h2 {
   font-size: 3.3125em; /* 53px/16px  */
   font-weight: normal;
   line-height: 1.1;
-  margin-bottom: .5em; /* 26px/53px */
+  margin: 0 0 .5em; /* 0 0 26px */
 }
 
 h3 {
   font-size: 1.25em; /* 20px/16px  */
   color: #48525c;
   line-height: 1.2;
-  margin-bottom: 1.7em; /* 34px/20px  */
+  margin-bottom: 1.7em; /* 34px */
 }
 
 /* Pseudo-classes ------------------ */
@@ -70,6 +70,25 @@ a:active {
   text-align: center;
 }
 
+.primary-content {
+	padding-top: 25px;
+    padding-bottom: 95px;
+}
+
+.secondary-content {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -77,7 +96,7 @@ a:active {
 }
 
 .t-border {
-  border-top: 2px solid lightgrey;
+  border-top: 2px solid #dfe2e6;
 }
 
 /* Layout Styles ------------------ */
@@ -86,7 +105,6 @@ a:active {
 .secondary-content {
   width: 60%;
   margin: auto;
-  
 }
 
 .wildlife {
@@ -96,3 +114,7 @@ a:active {
   border-top: 10px solid #ffa949;
   margin: 105px 0 60px;
 }
+
+
+
+
